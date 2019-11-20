@@ -34,3 +34,4 @@
 %   htrace      - [**] Side-diagonal trace(s)
 %   hwhos       - [**1b] Alternaive layout for WHOS
 %   hstrfindrex - hStrFind = @(varargin) find(~cellfun(@isempty,strfind(varargin{:})));
+
