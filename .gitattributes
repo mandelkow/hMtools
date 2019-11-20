@@ -1,0 +1,13 @@
+# .gitignore excludes files from the archive.
+# .gitattributes includes/excludes files from certain operations.
+# e.g. CR/LF conversion (text/-text), diff (diff/-diff), etc.
+# See http://git-scm.com/docs/gitattributes
+* -text -diff -merge
+.* text diff merge
+*.m text diff merge matlab
+*.txt text diff merge
+*.md text diff merge
+*.sh text diff merge
+*.org text diff merge
+*.bak text diff
+*.log text diff

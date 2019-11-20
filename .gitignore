@@ -1,0 +1,23 @@
+# .gitignore excludes files from the archive.
+# .gitattributes includes/excludes files from certain operations.
+# e.g. CR/LF conversion (text/-text), diff (diff/-diff), etc.
+# Do not git binaries!
+# !{pattern} = NOT ignore {pattern}
+# The following ignores all but .m, .txt, .org and folders:
+# *
+# !*.m
+# !*.m.*
+# !*.txt
+# !*.htm*
+# !*.xml
+# !*.org
+# !*.sh
+# !*.log
+# !*.bak
+# !*.hold
+# !*.keep
+# !*.orig
+# !*.old
+# !*/
+# !.*
+*~
