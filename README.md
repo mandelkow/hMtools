@@ -2,14 +2,16 @@
 
 `hMtools` - the toolbox you need to run most of Hendrik's Matlab code. A collection of more or less useful hFunctions to facilitate my workflow in signal processing and data visualization. Scarcely documented but heavily used over the past two decades.
 
-***No guarantees whatsoever! Use at your own risk, my friends!***
+> I am always pleased to note that the industrious Matlab development team keeps adding built-in functions that replicate and supercede a number of hFunctions. Way to go!
+
+As always: ***No guarantees! Use at your own risk, my friends.***
 
 *Please do not write your own hFunctions. Pick a different prefix letter, will you?!* ;-)
 
 Cheers, Hendrik
 
 ### What's useful?
-If you are looking for something useful, maybe consider the following usage stats, a rough count of hFunction calls in a more recent code base of mine.
+If you are looking for something useful, maybe consider the following usage stats, a rough tally of hFunction calls in a more recent code base of mine.
 
 ```
 # Lines Files Function
