@@ -6,8 +6,9 @@ function hfigeqax(Hdl,ax)
 % AUTH: HM, 14.05.2004 ver.3A. Include Zlim and Clim.
 % AUTH: HM, 06.05.2005 ver.4AB. Use 2nd input.
 % AUTH: HM, 2019-05-07 ver.4AB1. use for loop
+% AUTH: HM, 2019-12-10 ver.4AB2. Bugfix V{1}
 
-minmax = @(x) [min(x),max(x)]
+minmax = @(x) [min(x),max(x)];
 
 if (nargin < 1), Hdl = gcf; end;
 Ax = findobj(Hdl,'type','axes','-not','tag','Colorbar','-not','tag','legend');
@@ -18,6 +19,7 @@ else
     ax = findobj(ax,'type','axes');
 end
 for V = {'xlim','ylim','zlim','clim'}
+  V = V{1};
 	v = get(ax(:),V);
 	v = minmax([v{:}]);
 	set(Ax,V,v)
