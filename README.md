@@ -10,6 +10,9 @@ Use at your own risk!
 
 Cheers, Hendrik
 
+### Obsolescence? - *sic transit gloria mundi*
+I am pleased to note that a number of hTools have become obsolete in recent years as Matlab keeps improving and adding previously missing features (e.g. hsize).
+
 ### What's useful?
 If you are looking for something useful, maybe consider the following usage stats, a rough count of hFunction calls in a more recent code base of mine.
 
