@@ -2,8 +2,6 @@
 
 `hMtools` - the toolbox you need to run most of Hendrik's Matlab code. A collection of more or less useful hFunctions to facilitate my workflow in signal processing and data visualization. Scarcely documented but heavily used over the past two decades.
 
-> I am always pleased to note that the industrious Matlab development team keeps adding built-in functions that replicate and supercede a number of hFunctions. Way to go!
-
 As always: ***No guarantees! Use at your own risk, my friends.***
 
 *Please do not write your own hFunctions. Pick a different prefix letter, will you?!* ;-)
@@ -11,7 +9,7 @@ As always: ***No guarantees! Use at your own risk, my friends.***
 Cheers, Hendrik
 
 ### Obsolescence? - *sic transit gloria mundi*
-I am pleased to note that a number of hTools have become obsolete in recent years as Matlab keeps improving and adding previously missing features (e.g. hsize).
+I am pleased to note that a number of hMtools have become obsolete over the years as Matlab keeps improving and adding previously missing features (e.g. hsize).
 
 ### What's useful?
 If you are looking for something useful, maybe consider the following usage stats, a rough tally of hFunction calls in a more recent code base of mine.
